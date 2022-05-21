@@ -1,0 +1,38 @@
+body {
+    padding: 20px;
+}
+
+@media screen and (min-device-width: 1200px) {
+    .glavni {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .glavni {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .glavni {
+        padding: 30px;
+        width: 100%;
+    }
+}
+.centriranje {
+    text-align: center;
+}
+.ikona {
+    font-size: 80px;
+    margin-bottom: 10px;
+    color: #00cc00;
+}
+.dugme {
+    color: #00cc00;
+}
+.error-text {
+    text-align: center;
+    margin-top: 30px;
+}
+.show-pass {
+    text-align: right;
+}
